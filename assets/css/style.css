@@ -1,5 +1,11 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-image:  url("../images/background.png");
+    margin-bottom: 60px;
 }
 
 nav.navbar {
@@ -22,16 +28,39 @@ nav.navbar {
     background-color: rgb(228, 229, 226);
 }
 
-#profilePicture {
-    width: 55%;
-    margin-top: 15px;
-    margin-right: 15px;
+h1, h2 {
+    color: #0e1a6f;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
 }
 
-p {
-    margin-top: 15px;
+#profilePicture {
+    width: 55%;
+    margin-right: 15px;
 }
 
 p.two {
     margin-bottom: 20px;
 }
+
+.connect {
+    width: 60px;
+    padding: 5px;
+}
+
+.outside {
+    padding-bottom: 80px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #ccf0d8;
+    font-size: 12px;
+    text-align: center;
+    color: #0e1a6f;
+    border-top: solid #0e1a6f 2px;
+
+  }
