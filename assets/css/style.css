@@ -1,0 +1,37 @@
+body {
+    background-image:  url("../images/background.png");
+}
+
+nav.navbar {
+    background-color: #ccf0d8;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #0e1a6f;
+}
+
+.navbar-light .navbar-brand{
+    color: #0e1a6f;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #0e1a6f;
+}
+
+.background {
+    background-color: rgb(228, 229, 226);
+}
+
+#profilePicture {
+    width: 55%;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+p {
+    margin-top: 15px;
+}
+
+p.two {
+    margin-bottom: 20px;
+}
