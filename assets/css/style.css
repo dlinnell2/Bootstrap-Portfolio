@@ -35,13 +35,17 @@ h1, h2 {
     border-bottom-width: 2px;
 }
 
+#expand {
+    height: 100%;
+}
+
 #profilePicture {
-    width: 420px;
-    height: auto;
+    width: 400px;
     margin-right: 15px;
 }
 
 p.two {
+    padding-bottom: 15px;
     margin-bottom: 20px;
 }
 
@@ -75,3 +79,58 @@ form {
     color: #0e1a6f;
     background-color: #ccf0dc;
     border-color: #0e1a6f;
+}
+
+.about {
+    min-height: 470px;
+}
+
+/* .portRow {
+    width: 85%;
+} */
+
+.portImage {
+    position: relative;
+}
+
+.portText {
+    position: absolute;
+    bottom: 30px;
+    background-color: #0e1a6f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+}
+
+.image {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+    .image {
+        margin-left: -10px;
+    }
+
+    .portText {
+        margin-left: -10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #profilePicture {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .image {
+        width: 300px;
+        margin-left: 75px;
+    }
+
+    .portText {
+        width: 300px;
+        margin-left: 75px;
+    }
+}
