@@ -26,6 +26,7 @@ nav.navbar {
 
 .background {
     background-color: rgb(228, 229, 226);
+    margin-bottom: 10px;
 }
 
 h1, h2 {
@@ -35,7 +36,8 @@ h1, h2 {
 }
 
 #profilePicture {
-    width: 55%;
+    width: 420px;
+    height: auto;
     margin-right: 15px;
 }
 
@@ -64,3 +66,12 @@ p.two {
     border-top: solid #0e1a6f 2px;
 
   }
+
+form {
+    padding-bottom: 5px;
+}
+
+.btn-primary {
+    color: #0e1a6f;
+    background-color: #ccf0dc;
+    border-color: #0e1a6f;

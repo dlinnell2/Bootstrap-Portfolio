@@ -64,16 +64,26 @@
 
         <div class="col-md-12 background">
 
-          <h1>Donald Linnell</h1>
+          <h1>Contact Me</h1>
 
-          <img src="./assets/images/main.jpg" alt="A Photo of Myself" title="A Photo of Myself" id="profilePicture" class="float-left">
+          <br>
 
-          <p>Diving head first into coding has been a long time coming. My earliest exposure to it came while I was in middle
-          school, in a basic computer programming class. All HTML in notepad. Throughout high school and college it was
-          something I would touch on occasionally, always as just an aside. Fast forward 5 years out of college, and, having
-          grown tired of the hours of my previous job, I started looking for a change.</p>
-
-          <p class="two">In January of 2018 I began a coding bootcamp in Houston. Come along and see what happens!</p>
+          <form>
+                <div class="form-group">
+                  <label for="inputName">Name</label>
+                  <input type="name" class="form-control" id="inputName" aria-describedby="emailHelp" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                  <label for="emailAddress">Email Address</label>
+                  <input type="email" class="form-control" id="emailAddress" placeholder="example@example.com">
+                </div>
+                <div class="form-group">
+                        <label for="enterMessage">Enter your message here</label>
+                        <textarea class="form-control" id="enterMessage" rows="6">
+                        </textarea>
+                      </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
 
         </div>
 
